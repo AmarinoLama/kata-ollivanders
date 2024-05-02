@@ -12,6 +12,7 @@ public class NormalItem extends Item {
     }
 
     void updateQuality() {
+
         if (quality > 0 && sellIn > 0) {
             quality = quality - 1;
         } else {
