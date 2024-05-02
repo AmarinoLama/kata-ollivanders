@@ -1,6 +1,6 @@
 package com.gildedrose;
 
-public class Item {
+public class Item implements Updateable {
 
     public String name;
 
