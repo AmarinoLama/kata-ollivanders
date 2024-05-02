@@ -8,8 +8,8 @@ public class TexttestFixture {
                 new NormalItem("+5 Dexterity Vest", 10, 20), //
                 new NormalItem("Aged Brie", 2, 0), //
                 new NormalItem("Elixir of the Mongoose", 5, 7), //
-                new NormalItem("Sulfuras, Hand of Ragnaros", 0, 80), //
-                new NormalItem("Sulfuras, Hand of Ragnaros", -1, 80),
+                new Sulfuras("Sulfuras, Hand of Ragnaros", 0, 80), //
+                new Sulfuras("Sulfuras, Hand of Ragnaros", -1, 80),
                 new NormalItem("Backstage passes to a TAFKAL80ETC concert", 15, 20),
                 new NormalItem("Backstage passes to a TAFKAL80ETC concert", 10, 49),
                 new NormalItem("Backstage passes to a TAFKAL80ETC concert", 5, 49),
