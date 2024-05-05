@@ -6,7 +6,7 @@ public class TexttestFixture {
 
         Item[] items = new Item[] {
                 new NormalItem("+5 Dexterity Vest", 10, 20), //
-                new NormalItem("Aged Brie", 2, 0), //
+                new AgedBrie("Aged Brie", 2, 0), //
                 new NormalItem("Elixir of the Mongoose", 5, 7), //
                 new Sulfuras("Sulfuras, Hand of Ragnaros", 0, 80), //
                 new Sulfuras("Sulfuras, Hand of Ragnaros", -1, 80),
