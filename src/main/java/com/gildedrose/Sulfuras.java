@@ -6,6 +6,6 @@ public class Sulfuras extends Item {
        super(name, sellIn, quality);
    }
 
-   void updateItem(){}
+   public void updateItem(){}
 
 }
