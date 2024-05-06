@@ -11,20 +11,27 @@ public class Backstage extends Item {
         updateQuality();
     }
 
-    public void updateQuality() {
+    void updateQuality() {
+
+
+
         if (sellIn > 10) {
             quality = quality + 1;
         }
 
         if (sellIn < 11 && sellIn > 5) {
-            if (quality < 50) {
+            if (quality < 49) {
                 quality = quality + 2;
+            } else {
+                quality = 50;
             }
         }
 
         if (sellIn < 6) {
-            if (quality < 50) {
+            if (quality < 48) {
                 quality = quality + 3;
+            } else {
+                quality = 50;
             }
         }
 
