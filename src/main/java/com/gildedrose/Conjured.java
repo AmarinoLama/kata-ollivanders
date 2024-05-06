@@ -20,8 +20,6 @@ public class Conjured extends Item {
     }
 
     void updateSellIn() {
-        if (sellIn >= 0) {
-            sellIn = sellIn - 1;
-        }
+        sellIn = sellIn - 1;
     }
 }
