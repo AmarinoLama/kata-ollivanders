@@ -35,13 +35,13 @@ public class Backstage extends Item {
             }
         }
 
-        if (sellIn == 0) {
+        if (sellIn <= 0) {
             quality = 0;
         }
     }
 
     void updateSellIn() {
-        if (sellIn > 0) {
+        if (sellIn >= 0) {
             sellIn = sellIn - 1;
         }
     }

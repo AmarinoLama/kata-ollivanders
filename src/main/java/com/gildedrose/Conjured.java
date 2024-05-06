@@ -12,7 +12,7 @@ public class Conjured extends Item {
     }
 
     void updateQuality() {
-        if (quality > 0 && sellIn > 0) {
+        if (quality > 0 && sellIn >= 0) {
             quality = quality - 2;
         } else {
             quality = quality - 4;
@@ -20,7 +20,7 @@ public class Conjured extends Item {
     }
 
     void updateSellIn() {
-        if (sellIn > 0) {
+        if (sellIn >= 0) {
             sellIn = sellIn - 1;
         }
     }

@@ -19,6 +19,6 @@ class AgedBrieTest {
         AgedBrie item = new AgedBrie("Aged Brie", 0, 10);
         item.updateItem();
         assertEquals(12, item.quality);
-        assertEquals(0, item.sellIn);
+        assertEquals(-1, item.sellIn);
     }
 }

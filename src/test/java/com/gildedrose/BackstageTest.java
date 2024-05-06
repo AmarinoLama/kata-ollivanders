@@ -34,6 +34,6 @@ class BackstageTest {
         Backstage backstage = new Backstage("Backstage passes to a TAFKAL80ETC concert", 0, 20);
         backstage.updateItem();
         assertEquals(0, backstage.quality);
-        assertEquals(0, backstage.sellIn);
+        assertEquals(-1, backstage.sellIn);
     }
 }

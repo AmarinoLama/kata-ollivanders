@@ -22,7 +22,7 @@ public class NormalItem extends Item {
     }
 
     void updateSellIn() {
-        if (sellIn > 0) {
+        if (sellIn >= 0) {
             sellIn = sellIn - 1;
         }
     }
