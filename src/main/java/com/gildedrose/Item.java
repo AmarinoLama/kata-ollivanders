@@ -1,6 +1,6 @@
 package com.gildedrose;
 
-public class Item {
+public abstract class Item implements Updateable {
 
     public String name;
 
@@ -14,7 +14,7 @@ public class Item {
         this.quality = quality;
     }
 
-   @Override
+    @Override
    public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
     }
