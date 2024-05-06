@@ -13,13 +13,11 @@ public class Backstage extends Item {
 
     void updateQuality() {
 
-
-
-        if (sellIn > 10) {
+        if (sellIn >= 11) {
             quality = quality + 1;
         }
 
-        if (sellIn < 11 && sellIn > 5) {
+        if (sellIn <= 10 && sellIn >= 6) {
             if (quality < 49) {
                 quality = quality + 2;
             } else {
@@ -27,7 +25,7 @@ public class Backstage extends Item {
             }
         }
 
-        if (sellIn < 6) {
+        if (sellIn <= 5) {
             if (quality < 48) {
                 quality = quality + 3;
             } else {
