@@ -43,3 +43,7 @@ Siéntete libre de realizar cualquier cambio al mensaje `updateQuality` y agrega
 ## Notas finales
 
 Para aclarar: un artículo nunca puede tener una `calidad` superior a `50`, sin embargo las Sulfuras siendo un artículo legendario posee una calidad inmutable de `80`.
+
+## Diagrama UML
+
+![](diagramaUML.png)
