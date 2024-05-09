@@ -16,6 +16,8 @@ public abstract class Item implements Updateable {
 
     @Override
    public String toString() {
-        return this.name + ", " + this.sellIn + ", " + this.quality;
+        StringBuilder salida = new StringBuilder();
+        salida.append(this.name).append(", ").append(this.sellIn).append(", ").append(this.quality);
+        return salida.toString();
     }
 }
