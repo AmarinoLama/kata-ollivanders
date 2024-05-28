@@ -1,3 +1,5 @@
+Kata propuesto en clase para aprender a construir un diagrama UML y a utilizar clases abstractas e interfaces al mismo tiempo.
+
 # Especificaciones de la Rosa Dorada (Gilded Rose)
 
 Bienvenido al equipo de **Gilded Rose**.
